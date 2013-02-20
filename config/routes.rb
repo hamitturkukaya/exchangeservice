@@ -3,7 +3,8 @@ Exchangeservice::Application.routes.draw do
   # first created -> highest priority.
 
   # Sample of regular route:
- match 'currencies/:date' => 'currencies#index'
+  root :to => 'currencies#index'
+
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
