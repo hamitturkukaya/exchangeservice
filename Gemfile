@@ -28,12 +28,7 @@ gem 'whenever', :require => false
 
 gem "heroku"
 
-
-group :production, :staging do
-  gem "pg"
-end
-
-
+gem "pg"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
