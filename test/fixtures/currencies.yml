@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  code: MyString
+  unit: MyString
+  isim: MyString
+  name: MyString
+  forexbuying: MyString
+  forexselling: MyString
+  banknotebuying: MyString
+  banknoteselling: MyString
+  insertiondate: 2013-02-20
+
+two:
+  code: MyString
+  unit: MyString
+  isim: MyString
+  name: MyString
+  forexbuying: MyString
+  forexselling: MyString
+  banknotebuying: MyString
+  banknoteselling: MyString
+  insertiondate: 2013-02-20
