@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130220160032) do
+ActiveRecord::Schema.define(:version => 20130221141321) do
 
   create_table "currencies", :force => true do |t|
     t.string   "code"
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(:version => 20130220160032) do
     t.date     "insertiondate"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
+    t.string   "crossrateusd"
   end
 
   add_index "currencies", ["code"], :name => "index_currencies_on_code"
