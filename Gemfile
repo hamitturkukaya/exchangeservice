@@ -26,7 +26,7 @@ gem 'nokogiri'
 
 gem 'whenever', :require => false
 
-gem "heroku"
+#gem "heroku"
 
 group :production do
   gem 'pg'
@@ -34,7 +34,10 @@ end
 group :development, :test do
   gem 'sqlite3'
 end
-
+gem 'money'
+gem 'money-rails'
+gem 'google_currency'
+gem 'tcm_currr'
 
 
 # To use ActiveModel has_secure_password
