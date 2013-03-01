@@ -6,7 +6,7 @@
     </list>
     <ignored path="exchangeservice.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/currencies_controller.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362145836570" ignored="false" />
+    <file path="/currencies_controller.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362146229336" ignored="false" />
     <file path="/index.html.erb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362135814338" ignored="false" />
     <file path="/index.json.erb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1361377354228" ignored="false" />
     <file path="/routes.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1361378255860" ignored="false" />
@@ -57,7 +57,7 @@
       <file leaf-file-name="currencies_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/currencies_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="12" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.74585634">
+            <state line="49" column="30" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.41436464">
               <folding />
             </state>
           </provider>
@@ -889,7 +889,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/currencies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="12" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.74585634">
+        <state line="49" column="30" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.41436464">
           <folding />
         </state>
       </provider>

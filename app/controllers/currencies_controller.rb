@@ -47,9 +47,10 @@ class CurrenciesController < ApplicationController
       amount = (params[:cash].to_f*rate).round(4)
       @currency = olustur(from,to,params[:cash],amount)
     else
-      @currency = {
-          :error => "Parameter Error"
-      }
+      @currency = Currency.all
+      #@currency = {
+      #    :error => "Parameter Error"
+      #}
     end
     render json: @currency
   end
