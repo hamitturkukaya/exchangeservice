@@ -38,8 +38,8 @@ class CurrenciesController < ApplicationController
         i=i+1
         Currency.create(@currency)
       end
-    end
-    if params[:from].present? & params[:to].present? & params[:cash].present?
+
+    elsif params[:from].present? & params[:to].present? & params[:cash].present?
       date = params[:date] || Time.now.to_date
       from = Currency.where(:code => params[:from], :insertiondate => date).last
       to = Currency.where(:code => params[:to], :insertiondate => date).last
