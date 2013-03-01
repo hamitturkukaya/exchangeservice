@@ -22,6 +22,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v3.2.12, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activeresource (v3.2.12, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.2.12, RVM: ruby-1.9.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.3.3, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v3.0.2, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.0.4, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.2.3, RVM: ruby-1.9.3-p385) [gem]" level="application" />
@@ -30,18 +31,23 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.4.0, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-1.9.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="excon (v0.16.10, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="google_currency (v0.1.1, RVM: ruby-1.9.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="heroku (v2.35.0, RVM: ruby-1.9.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="heroku-api (v0.3.7, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.1, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.1, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="journey (v1.0.4, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v2.2.1, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.7.7, RVM: ruby-1.9.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="launchy (v2.2.0, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.4.4, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.21, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="money (v5.1.0, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="money-rails (v0.8.0, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.6.1, RVM: ruby-1.9.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="netrc (v0.7.7, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.5.6, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pg (v0.14.1, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: ruby-1.9.3-p385) [gem]" level="application" />
@@ -53,6 +59,8 @@
     <orderEntry type="library" scope="PROVIDED" name="railties (v3.2.12, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.0.3, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12.1, RVM: ruby-1.9.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rest-client (v1.6.7, RVM: ruby-1.9.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v0.9.9, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.5, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.6, RVM: ruby-1.9.3-p385) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.2.2, RVM: ruby-1.9.3-p385) [gem]" level="application" />
