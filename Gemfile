@@ -34,9 +34,9 @@ end
 group :development, :test do
   gem 'sqlite3'
 end
-gem 'money'
-gem 'money-rails'
-gem 'google_currency'
+#gem 'money'
+#gem 'money-rails'
+#gem 'google_currency'
 #gem 'tcm_currr'
 
 

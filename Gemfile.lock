@@ -43,8 +43,6 @@ GEM
     excon (0.16.10)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    google_currency (0.1.1)
-      money (>= 3.1.0.pre1)
     heroku (2.35.0)
       heroku-api (~> 0.3.7)
       launchy (>= 0.3.2)
@@ -67,12 +65,6 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.21)
-    money (5.1.0)
-      i18n (~> 0.6.0)
-    money-rails (0.8.0)
-      activesupport (>= 3.0)
-      money (~> 5.1.0)
-      railties (>= 3.0)
     multi_json (1.6.1)
     netrc (0.7.7)
     nokogiri (1.5.6)
@@ -135,11 +127,8 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  google_currency
   heroku
   jquery-rails
-  money
-  money-rails
   nokogiri
   pg
   rails (= 3.2.12)
