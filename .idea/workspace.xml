@@ -57,7 +57,7 @@
       <file leaf-file-name="currencies_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/currencies_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="5" selection-start="2275" selection-end="2275" vertical-scroll-proportion="0.74585634">
+            <state line="40" column="8" selection-start="68" selection-end="1524" vertical-scroll-proportion="0.6629834">
               <folding />
             </state>
           </provider>
@@ -871,7 +871,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/currencies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="5" selection-start="2275" selection-end="2275" vertical-scroll-proportion="0.74585634">
+        <state line="40" column="8" selection-start="68" selection-end="1524" vertical-scroll-proportion="0.6629834">
           <folding />
         </state>
       </provider>
