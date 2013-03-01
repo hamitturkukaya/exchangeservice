@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84fd4909-18fb-4f59-9abd-7eb82345e39e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/currencies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/currencies_controller.rb" />
-    </list>
+    <list default="true" id="84fd4909-18fb-4f59-9abd-7eb82345e39e" name="Default" comment="" />
     <ignored path="exchangeservice.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/currencies_controller.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362145325970" ignored="false" />
@@ -57,7 +55,7 @@
       <file leaf-file-name="currencies_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/currencies_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="7" selection-start="1413" selection-end="1413" vertical-scroll-proportion="1.6574585">
+            <state line="40" column="5" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.6629834">
               <folding />
             </state>
           </provider>
@@ -889,7 +887,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/currencies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="7" selection-start="1413" selection-end="1413" vertical-scroll-proportion="1.6574585">
+        <state line="40" column="5" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.6629834">
           <folding />
         </state>
       </provider>
