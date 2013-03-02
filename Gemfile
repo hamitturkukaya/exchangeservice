@@ -35,10 +35,10 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-gem 'tcm_currr'
-gem 'money-rails'
-
-gem 'money'
+#gem 'tcm_currr'
+#gem 'money-rails'
+#
+#gem 'money'
 
 
 

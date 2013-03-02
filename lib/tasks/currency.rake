@@ -1,5 +1,5 @@
 namespace :currency do
-  task :insert_currencies => [:environment] do
+  task :insert => [:environment] do
     require "nokogiri"
     require "open-uri"
     @doc = Nokogiri::XML(open('http://www.tcmb.gov.tr/kurlar/today.xml'))
