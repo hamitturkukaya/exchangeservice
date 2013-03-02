@@ -1,3 +1,5 @@
+namespaces :currency do
+
 task :insert_currencies => [:environment] do
   require "nokogiri"
   require "open-uri"
@@ -45,4 +47,5 @@ task :insert_currencies => [:environment] do
       :insertiondate => Time.now.to_date
   }
   Currency.create(@currency)
+end
 end
