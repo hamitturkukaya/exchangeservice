@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84fd4909-18fb-4f59-9abd-7eb82345e39e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/currencies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/currencies_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/currency.rake" afterPath="$PROJECT_DIR$/lib/tasks/currency.rake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/exchangeservice.iml" afterPath="$PROJECT_DIR$/.idea/exchangeservice.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exchangeservice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +14,7 @@
     <file path="/Gemfile" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362223514002" ignored="false" />
     <file path="/.gitignore" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1361384992580" ignored="false" />
     <file path="/currency.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1361986361597" ignored="false" />
-    <file path="/currency.rake" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362236038556" ignored="false" />
+    <file path="/currency.rake" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362236072166" ignored="false" />
     <file path="/a.sql" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1361984286640" ignored="false" />
     <file path="/schedule.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362068440275" ignored="false" />
     <file path="/a.rxml" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362073226893" ignored="false" />
@@ -77,7 +70,7 @@
       <file leaf-file-name="currency.rake" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/currency.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.89966553">
+            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1090,7 +1083,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/currency.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.89966553">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
