@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84fd4909-18fb-4f59-9abd-7eb82345e39e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/products.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/products.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/products_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/product.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/money.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130301140147_create_products.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/products.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/functional/products_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/helpers/products_helper_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/product_test.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/currency.rake" afterPath="$PROJECT_DIR$/lib/tasks/currency.rake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/schedule.rb" afterPath="$PROJECT_DIR$/config/schedule.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exchangeservice.iws" />
@@ -32,7 +14,7 @@
     <file path="/routes.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1361378255860" ignored="false" />
     <file path="/Dummy.txt" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362225961793" ignored="false" />
     <file path="/Gemfile" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362237143693" ignored="false" />
-    <file path="/.gitignore" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1361384992580" ignored="false" />
+    <file path="/.gitignore" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362238880132" ignored="false" />
     <file path="/currency.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1361986361597" ignored="false" />
     <file path="/currency.rake" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362238135722" ignored="false" />
     <file path="/a.sql" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1361984286640" ignored="false" />
@@ -87,10 +69,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="660" selection-end="700" vertical-scroll-proportion="0.41935483">
+            <state line="37" column="0" selection-start="660" selection-end="700" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="10" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schedule.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/schedule.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="23" selection-start="490" selection-end="490" vertical-scroll-proportion="0.45967743">
               <folding />
             </state>
           </provider>
@@ -114,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/schedule.rb" />
-        <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/money-5.1.0/lib/money/money.rb" />
         <option value="$PROJECT_DIR$/app/controllers/currencies_controller.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/money-5.1.0/lib/money/bank/variable_exchange.rb" />
         <option value="$PROJECT_DIR$/app/models/product.rb" />
@@ -130,6 +128,8 @@
         <option value="$PROJECT_DIR$/config/initializers/money.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/tasks/currency.rake" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config/schedule.rb" />
       </list>
     </option>
   </component>
@@ -829,7 +829,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="660" selection-end="700" vertical-scroll-proportion="0.41935483">
+        <state line="37" column="0" selection-start="660" selection-end="700" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="10" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/schedule.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="23" selection-start="490" selection-end="490" vertical-scroll-proportion="0.45967743">
           <folding />
         </state>
       </provider>

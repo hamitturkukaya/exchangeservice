@@ -17,7 +17,7 @@
 #   runner "AnotherModel.prune_old_records"
 # end
 every :day, :at => '3:30 am' do
-  rake "insert_currencies"
+  rake "currency:insert"
 end
 
 # Learn more: http://github.com/javan/whenever
