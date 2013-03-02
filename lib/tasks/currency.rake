@@ -19,8 +19,8 @@ namespace :currency do
       end
       @currency = {
           :code => @code[i],
-          :isim => @data[i].css('Isim').children.to_s,
-          :name => @data[i].css('CurrencyName').children.to_s,
+          :isim => @data[i].css('Isim').children.to_s.encode('UTF-8'),
+          :name => @data[i].css('CurrencyName').children.to_s.encode('UTF-8'),
           :unit => @data[i].css('Unit').children.to_s,
           :forexbuying => @data[i].css('ForexBuying').children.to_s,
           :forexselling => @data[i].css('ForexSelling').children.to_s,

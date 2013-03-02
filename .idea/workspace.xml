@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84fd4909-18fb-4f59-9abd-7eb82345e39e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/products.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/products.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/products_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/product.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/money.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130301140147_create_products.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/products.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/functional/products_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/helpers/products_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/product_test.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/currency.rake" afterPath="$PROJECT_DIR$/lib/tasks/currency.rake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/exchangeservice.iml" afterPath="$PROJECT_DIR$/.idea/exchangeservice.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/money.rb" afterPath="$PROJECT_DIR$/config/initializers/money.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exchangeservice.iws" />
@@ -16,10 +31,10 @@
     <file path="/index.json.erb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1361377354228" ignored="false" />
     <file path="/routes.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1361378255860" ignored="false" />
     <file path="/Dummy.txt" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362225961793" ignored="false" />
-    <file path="/Gemfile" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362223514002" ignored="false" />
+    <file path="/Gemfile" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362237143693" ignored="false" />
     <file path="/.gitignore" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1361384992580" ignored="false" />
     <file path="/currency.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1361986361597" ignored="false" />
-    <file path="/currency.rake" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362236131349" ignored="false" />
+    <file path="/currency.rake" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362238135722" ignored="false" />
     <file path="/a.sql" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1361984286640" ignored="false" />
     <file path="/schedule.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362068440275" ignored="false" />
     <file path="/a.rxml" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362073226893" ignored="false" />
@@ -29,7 +44,7 @@
     <file path="/product.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362220230179" ignored="false" />
     <file path="/tcm_currr.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362235717589" ignored="false" />
     <file path="/fragment.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362141284709" ignored="false" />
-    <file path="/money.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362230494212" ignored="false" />
+    <file path="/money.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362237201613" ignored="false" />
     <file path="/variable_exchange.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362232872676" ignored="false" />
     <file path="/tcm.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362227660071" ignored="false" />
     <file path="/asd.rb" changelist="84fd4909-18fb-4f59-9abd-7eb82345e39e" time="1362233326817" ignored="false" />
@@ -54,19 +69,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="currencies_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/currencies_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="661" selection-end="710" vertical-scroll-proportion="0.0">
+            <state line="1" column="11" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="money.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/initializers/money.rb">
+      <file leaf-file-name="currency.rake" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/tasks/currency.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="29" selection-start="0" selection-end="2482" vertical-scroll-proportion="0.17298187">
+            <state line="37" column="29" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="0" selection-start="660" selection-end="700" vertical-scroll-proportion="0.41935483">
               <folding />
             </state>
           </provider>
@@ -103,9 +127,9 @@
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/tcm_currr-0.0.1/lib/money/asd.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/tcm_currr-0.0.1/lib/money/bank/tcm_currr.rb" />
         <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
-        <option value="$PROJECT_DIR$/lib/tasks/currency.rake" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/initializers/money.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/lib/tasks/currency.rake" />
       </list>
     </option>
   </component>
@@ -200,6 +224,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exchangeservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exchangeservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exchangeservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exchangeservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -265,82 +317,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exchangeservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exchangeservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="initializers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exchangeservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exchangeservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exchangeservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exchangeservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exchangeservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exchangeservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -809,23 +785,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/tcm_currr-0.0.1/lib/money/asd.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/money-5.1.1/lib/money/bank/variable_exchange.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="89" column="26" selection-start="2855" selection-end="2857" vertical-scroll-proportion="0.31958762">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130301140147_create_products.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="126" selection-end="131" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -837,13 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/product.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/money-5.1.1/lib/money/money.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="424" column="6" selection-start="11595" selection-end="11595" vertical-scroll-proportion="2.705107">
@@ -851,44 +806,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/currencies_controller.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/tcmb_currency-0.0.1/lib/money/bank/tcmb_currency.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="62" selection-end="62" vertical-scroll-proportion="0.024193548">
+        <state line="8" column="30" selection-start="189" selection-end="189" vertical-scroll-proportion="0.19769357">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/currencies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="70" selection-start="279" selection-end="279" vertical-scroll-proportion="0.33447686">
+        <state line="1" column="11" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/currency.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="37" selection-end="37" vertical-scroll-proportion="0.024193548">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/tcm_currr-0.0.1/lib/money/bank/tcm_currr.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="22" selection-start="0" selection-end="4955" vertical-scroll-proportion="0.6672158">
+        <state line="37" column="29" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="661" selection-end="710" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/money.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="0" selection-end="2482" vertical-scroll-proportion="0.17298187">
+        <state line="37" column="0" selection-start="660" selection-end="700" vertical-scroll-proportion="0.41935483">
           <folding />
         </state>
       </provider>

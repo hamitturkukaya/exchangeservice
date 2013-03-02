@@ -35,11 +35,8 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-#gem 'tcm_currr'
 #gem 'money-rails'
-#
-#gem 'money'
-
+#gem 'tcmb_currency'
 
 
 # To use ActiveModel has_secure_password
